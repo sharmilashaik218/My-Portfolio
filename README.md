@@ -20,6 +20,10 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 
 ## 📷 Screenshots
 *(Add screenshots or a preview of your portfolio here for better presentation)*
+![](https://github.com/sharmilashaik218/My-Portfolio/blob/main/Screenshot%202025-01-31%20151743.png)
+![](https://github.com/sharmilashaik218/My-Portfolio/blob/main/Screenshot%202025-01-31%20151808.png)
+![](https://github.com/sharmilashaik218/My-Portfolio/blob/main/Screenshot%202025-01-31%20151818.png)
+
 
 ## 🔧 Setup Instructions
 1. Clone the repository:
