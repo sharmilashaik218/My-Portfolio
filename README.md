@@ -1,7 +1,7 @@
 
 # 🎨 My Portfolio
 
-Welcome to my personal portfolio! This project showcases my skills, experience, and projects in an interactive and visually appealing way.
+Welcome to my personal portfolio! 
 
 ## 🚀 Live Demo
 🔗 [Visit My Portfolio](https://sharmilashaik218.github.io/My-Portfolio/) *(Update if applicable)*
@@ -19,7 +19,7 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
 - 🎨 Interactive UI/UX with smooth animations  
 
 ## 📷 Screenshots
-*(Add screenshots or a preview of your portfolio here for better presentation)*
+
 ![](https://github.com/sharmilashaik218/My-Portfolio/blob/main/Screenshot%202025-01-31%20151743.png)
 ![](https://github.com/sharmilashaik218/My-Portfolio/blob/main/Screenshot%202025-01-31%20151808.png)
 ![](https://github.com/sharmilashaik218/My-Portfolio/blob/main/Screenshot%202025-01-31%20151818.png)
