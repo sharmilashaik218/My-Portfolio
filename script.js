@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function() {
     var typed = new Typed("#changing-text", {
-        strings: ["Software Developer", "Web Designer", "AI Enthusiast"],
+        strings: ["Software Developer", "Tech Explorer" ,"Web Developer", "CSE Undergraduate",],
         typeSpeed: 100,
         backSpeed: 50,
         loop: true
