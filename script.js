@@ -55,7 +55,30 @@ const projects = [
         tech: "Tech Stack: Django, HTML, CSS",
         link: "https://github.com/sharmilashaik218/frt_Project",
         image: "images/healthease.png",
-    }
+    },
+
+    {
+        title: "Tic-Tac-Toe ",
+        description: "A simple game built usin HTML,CSS, Java script which helped me learn and understand Javascripts DOM",
+        tech: "Tech Stack:HTML, CSS , javaScript",
+        link: "https://sharmilashaik218.github.io/tic-tac-toe-javaScriptProject/",
+        image: "images/tic-tac-toe.png",
+    },
+    {
+        title: "Rock-Paper-Scissors ",
+        description: "A simple game built usin HTML,CSS, Java script which helped me learn and understand Javascripts DOM",
+        tech: "Tech Stack:HTML, CSS , javaScript",
+        link: "https://sharmilashaik218.github.io/rock-paper-scissors-JavaScript/",
+        image: "images/rock-papers-scissors.png",
+    },
+
+    {
+        title: "Digital Clock",
+        description: "A Simple digital clock using Html and Java Script",
+        tech: "Tech Stack:HTML ,JavaScript",
+        link: "https://sharmilashaik218.github.io/digitalclock/",
+        image: "images/digital-clock.png",
+    },
 ];
 
 const projectsList = document.getElementById("projects-list");
