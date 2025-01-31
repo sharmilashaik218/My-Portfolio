@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+     <!-- Iconify CDN for colorful icons -->
+  <script src="https://code.iconify.design/2/2.0.0/iconify.min.js"></script>
+   
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Sharmila Shaik</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                    
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h3>HELLO!</h3>
+        <h1>I'm <span class="highlight">Sharmila Shaik</span></h1>
+        <h2><span id="changing-text"></span></h2>
+        <p>Pursuing my B.Tech Degree at KL University</p>
+        
+        <div class="buttons">
+            <a href="https://linkedin.com/in/sharmilashaik020" class="btn primary">LinkedIn</a>
+            <a href="#projects" class="btn secondary">My Works</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-container">
+        <!-- Left side: Image -->
+        <div class="about-image">
+            <img src="images/about-me.jpg" alt="Sharmila Shaik">
+        </div>
+
+        <!-- Right side: About Me details -->
+        <div class="about-details">
+            <h2>About Me</h2>
+            <p>A Computer Science undergraduate with problem-solving skills and project experience, looking forward to seeking an opportunity in the Software Engineering industry while contributing to a dynamic team.</p>
+            <p><strong>Name:</strong> Sharmila Shaik</p>
+            <p><strong>Age:</strong> 20</p>
+            <p><strong>Email:</strong> <a href="mailto:2200030218cseh@gmail.com">2200030218cseh@gmail.com</a></p>
+            <p><strong>Country:</strong> India</p>
+            <p><strong>Role:</strong> Software Developer</p>
+            <p><strong>Languages:</strong> English, Hindi, Telugu</p>
+            <p><strong>Interests:</strong> Traveling, Cooking</p>
+
+            <div class="buttons">
+                <a href="https://www.linkedin.com/in/sharmilashaik020" class="btn primary" target="_blank">LinkedIn</a>
+                <a href="#projects" class="btn secondary">Projects Completed</a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="resume" class="py-5">
+        <div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Resume</h1>
+            <h2 class="mb-4">Resume</h2>
+            <p> A Computer Science under graduate with problem solving skills and project experiences, looking forward to seek an 
+				opportunity in the Software Engineering industry while contributing to a dynamic team</p>
+          </div>
+        </div>
+
+        <div class="row">
+			<h1 class="big-4">Achievements</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+
+
+        <div class="row">
+			<!-- Existing Certificates (Same as before) -->
+			<div class="col-md-6 d-flex align-items-stretch mb-4">
+				<div class="resume-wrap w-100">
+					<span class="date">2024</span>
+					<h2>Redhat Enterprise Application Developer Certification</h2>
+					<img src="images/red hat (1).png" alt="Redhat Certification" class="img-fluid mt-3 certificate-img">
+				</div>
+			</div>
+		
+			<div class="col-md-6 d-flex align-items-stretch mb-4">
+				<div class="resume-wrap w-100">
+					<span class="date">2024</span>
+					<h2>Future Ready Talent Virtual Internship</h2>
+					<span class="position">Offered by Microsoft</span>
+					<img src="images/frt.png" alt="Microsoft Internship Certificate" class="img-fluid mt-3 certificate-img">
+				</div>
+			</div>
+		
+			<div class="col-md-6 d-flex align-items-stretch mb-4">
+				<div class="resume-wrap w-100">
+					<span class="date">2024</span>
+					<h2>Data Engineering Virtual Internship</h2>
+					<span class="position">Offered by AICTE</span>
+					<img src="images/data_engineering.png" alt="AICTE Internship Certificate" class="img-fluid mt-3 certificate-img">
+				</div>
+			</div>
+		
+			<div class="col-md-6 d-flex align-items-stretch mb-4">
+				<div class="resume-wrap w-100">
+					<span class="date">2024</span>
+					<h2>Salesforce Certified AI Associate</h2>
+					<img src="images/salesforce_ai_associate.png" alt="Salesforce AI Associate" class="img-fluid mt-3 certificate-img">
+				</div>
+			</div>
+		
+			<br>
+			<br>
+			<br>
+			<!-- New Certificates as Simple Images (Without Card Design) -->
+			<div class="col-md-2 col-sm-4 mb-4">
+				<img src="images/google ai-ml.png" alt="Google AI-ML" class="img-fluid certificate-img">
+			</div>
+		
+			<div class="col-md-2 col-sm-4 mb-4">
+				<img src="images/redhat.png" alt="Redhat Certificate" class="img-fluid certificate-img">
+			</div>
+		
+			<div class="col-md-2 col-sm-4 mb-4">
+				<img src="images/ibm-skillbuid.png" alt="IBM Skill Build" class="img-fluid certificate-img">
+			</div>
+		
+			<div class="col-md-2 col-sm-4 mb-4">
+				<img src="images/rpa.png" alt="RPA Certificate" class="img-fluid certificate-img">
+			</div>
+		
+			<div class="col-md-2 col-sm-4 mb-4">
+				<img src="images/aws1.png" alt="AWS Certificate" class="img-fluid certificate-img">
+			</div>
+		
+			<div class="col-md-2 col-sm-4 mb-4">
+				<img src="images/aws2.png" alt="AWS Certificate" class="img-fluid certificate-img">
+			</div>
+		
+			<div class="col-md-2 col-sm-4 mb-4">
+				<img src="images/aws3.png" alt="AWS Certificate" class="img-fluid certificate-img">
+			</div>
+		
+			<div class="col-md-2 col-sm-4 mb-4">
+				<img src="images/aws4.png" alt="AWS Certificate" class="img-fluid certificate-img">
+			</div>
+		
+			<div class="col-md-2 col-sm-4 mb-4">
+				<img src="images/CodeChefBadge.png" alt="CodeChef Badge" class="img-fluid certificate-img">
+			</div>
+		
+			<div class="col-md-2 col-sm-4 mb-4">
+				<img src="images/salesforce_badge.png" alt="Salesforce Badge" class="img-fluid certificate-img">
+			</div>
+		
+			<div class="col-md-2 col-sm-4 mb-4">
+				<img src="images/servicenow1 (1).png" alt="ServiceNow Certificate" class="img-fluid certificate-img">
+			</div>
+		
+			<div class="col-md-2 col-sm-4 mb-4">
+				<img src="images/servicenow2.png" alt="ServiceNow Certificate" class="img-fluid certificate-img">
+			</div>
+		
+			<div class="col-md-2 col-sm-4 mb-4">
+				<img src="images/codechef_streak.png" alt="CodeChef Streak" class="img-fluid certificate-img">
+			</div>
+		</div>
+		
+        <br>
+		<br>
+
+		<div class="row">
+            <h1 class="big-4">Education</h1>
+            <div class="underline"></div>
+        </div>
+        <br>
+        
+        <div class="row">
+            <!-- First Education Card -->
+            <div class="col-md-6">
+                <div class="resume-wrap ftco-animate">
+                    <span class="date">2022-2026</span>
+                    <h2>Bachelor of Technology</h2>
+                    <span class="position">K L University</span>
+                    <p class="mt-4">Grade (CGPA): 9.5</p>
+                </div>
+            </div>
+        
+            <!-- Second Education Card -->
+            <div class="col-md-6">
+                <div class="resume-wrap ftco-animate">
+                    <span class="date">2018-2020</span>
+                    <h2>Higher Secondary Education</h2>
+                    <span class="position">Narayana Junior College</span>
+                    <p class="mt-4">Grade (Percentage): 95</p>
+                </div>
+            </div>
+        </div>
+        
+        
+
+    		<div class="row justify-content-center mt-5">
+				<div class="col-md-6 text-center ftco-animate">
+					<!-- Download CV Button -->
+					<p>
+						<a href="files/Sharmila Shaik resumeee.pdf" 
+						   class="btn btn-primary py-4 px-5 cv-button" 
+						   download="Sharmila Shaik resumeee">
+						   Download CV
+						</a>
+					</p>
+				</div>
+				<div class="col-md-6 text-center ftco-animate">
+					<!-- View CV Button -->
+					<p>
+						<button id="viewCvBtn" class="btn btn-primary py-4 px-5 cv-button">
+							View CV
+						</button>
+					</p>
+				</div>
+			</div>
+			
+			<!-- Hidden CV Viewer -->
+			<div id="cvViewer" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); z-index: 9999;">
+				<div style="position: relative; width: 80%; height: 80%; margin: 5% auto; background: #fff; border-radius: 8px; overflow: hidden;">
+					<!-- Close Button -->
+					<button id="closeCvBtn" style="position: absolute; top: 10px; right: 10px; background: transparent; border: none; font-size: 20px; cursor: pointer;">
+						&times;
+					</button>
+					<!-- CV Content -->
+					<iframe src="files/Sharmila Shaik resumeee.pdf" width="100%" height="100%" style="border: none;"></iframe>
+				</div>
+			</div>
+        </div>
+
+
+        <!-- Skills Section Merged into Resume -->
+        <div class="row">
+            <h1 class="big-4">Skills</h1>
+            <div class="underline"></div>
+        </div>
+        <br>
+        <div class="row">
+            <!-- Skill 1 - Programming Languages -->
+            <div class="col-md-4 mb-4">
+                <div class="skill-card p-4 border shadow-sm rounded">
+                    <h4 class="text-center mb-4" style="font-size: 1.5rem;">Programming Languages</h4>
+                    <div class="skills-icons d-flex justify-content-center gap-3">
+                        <span class="iconify skill-icon" data-icon="logos:python" data-inline="false" style="font-size: 60px;"></span>
+                        <span class="iconify skill-icon" data-icon="logos:java" data-inline="false" style="font-size: 60px;"></span>
+                        <span class="iconify skill-icon" data-icon="logos:sql" data-inline="false" style="font-size: 60px;"></span>
+                        <span class="iconify skill-icon" data-icon="logos:javascript" data-inline="false" style="font-size: 60px;"></span>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Skill 2 - Web Development -->
+            <div class="col-md-4 mb-4">
+                <div class="skill-card p-4 border shadow-sm rounded">
+                    <h4 class="text-center mb-4" style="font-size: 1.5rem;">Web Development</h4>
+                    <div class="skills-icons d-flex justify-content-center gap-3">
+                        <span class="iconify skill-icon" data-icon="logos:html-5" data-inline="false" style="font-size: 60px;"></span>
+                        <span class="iconify skill-icon" data-icon="logos:css-3" data-inline="false" style="font-size: 60px;"></span>
+                        <span class="iconify skill-icon" data-icon="logos:react" data-inline="false" style="font-size: 60px;"></span>
+                        <span class="iconify skill-icon" data-icon="logos:django" data-inline="false" style="font-size: 60px;"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill 3 - Databases -->
+            <div class="col-md-4 mb-4">
+                <div class="skill-card p-4 border shadow-sm rounded">
+                    <h4 class="text-center mb-4" style="font-size: 1.5rem;">Databases</h4>
+                    <div class="skills-icons d-flex justify-content-center gap-3">
+                        <span class="iconify skill-icon" data-icon="logos:mongodb" data-inline="false" style="font-size: 60px;"></span>
+                        <span class="iconify skill-icon" data-icon="logos:mysql" data-inline="false" style="font-size: 60px;"></span>
+                        <span class="iconify skill-icon" data-icon="logos:oracle" data-inline="false" style="font-size: 60px;"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid" id="projects-list">
+                <!-- Projects will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+      
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
