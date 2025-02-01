@@ -1,101 +1,84 @@
 /* General Styles */
-html ,body {
+html, body {
     background-color: #EDE4FF; /* Light Lavender Gray */
     color: #F8F9FA; /* Off-White Text */
     font-family: 'Poppins', sans-serif;
-}
-
-/* Slim & Visible Navbar */
-.navbar {
-    background: rgba(27, 27, 27, 0.98); /* Improved visibility */
-    height: 50px; /* More standard height */
-    padding: 10px 20px; /* Reduced padding */
-    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.5); /* Slight shadow */
-    border-bottom: 2px solid #957DAD; /* Subtle border */
-    backdrop-filter: blur(12px); /* Smooth blur effect */
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    transition: all 0.3s ease-in-out;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-/* Prevent Content Overlap */
-html, body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
 
-body {
-    padding-top: 60px; /* Adjusted for navbar height */
-}
-
-/* Navbar Brand */
-.navbar-brand {
-    font-size: 28px; /* Adjusted size for better fit */
-    font-weight: bold;
-    color: #BFA2DB !important;
-    transition: 0.3s ease-in-out;
-}
-
-.navbar-brand:hover {
-    color: #957DAD !important;
-}
-
-/* Navbar Links */
-.navbar-nav {
+/* Navbar */
+.navbar {
+    background: black !important;
+    height: 60px;
     display: flex;
     align-items: center;
-    gap: 18px; /* More spacing for better visibility */
-    margin-right: 30px;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #E6E6FA;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Brand (Left Side) */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+
+/* Center Navbar Links */
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 0;
 }
 
 .navbar-nav .nav-link {
-    color: #F8F9FA !important;
-    font-size: 18px; /* Slightly smaller for a better look */
+    color: #FFFFFF !important;
+    font-size: 20px;
     font-weight: 600;
+    text-decoration: none;
+    margin-left: 50px;
     transition: 0.3s ease-in-out;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #BFA2DB !important;
+    color: #E6E6FA !important;
     text-decoration: underline;
 }
 
-/* Social Icons */
+/* Social Icons (Right Side) */
 .social-icons {
     display: flex;
-    align-items: center;
-    gap: 20px;
-    margin-left: 30px;
-}
-
-.social-icons .nav-item {
-    list-style: none;
+    gap: 15px;
 }
 
 .social-icons .nav-link i {
-    font-size: 2rem; /* Increased for better visibility */
-    color: #BFA2DB;
+    font-size: 2rem;
+    color: #FFFFFF !important;
     transition: 0.3s ease-in-out;
 }
 
 .social-icons .nav-link i:hover {
-    color: #957DAD;
+    color: #E6E6FA !important;
     transform: scale(1.2);
 }
 
 /* Navbar Scroll Effect */
 .navbar.scrolled {
-    background: rgba(27, 27, 27, 1); /* Full opacity on scroll */
-    height: 50px; /* Keep the same height */
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.6);
-    border-bottom: 2px solid #BFA2DB;
+    background: black !important; /* Ensure navbar remains black on scroll */
+    height: 60px;
+    box-shadow: 0px 4px 16px rgba(255, 255, 255, 0.3);
+    border-bottom: 2px solid #E6E6FA;
 }
 
 /* Buttons */
@@ -123,6 +106,7 @@ a {
 a:hover {
     color: #BFA2DB;
 }
+
 
 /* Home Section */
 #home {
